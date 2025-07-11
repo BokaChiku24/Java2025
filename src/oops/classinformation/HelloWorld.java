@@ -1,4 +1,4 @@
-package objecotorientedprogramming.classinformation;
+package oops.classinformation;
 
 public class HelloWorld {
     public static void main(String[] args) {
