@@ -18,35 +18,32 @@ public class AssignmentEquality {
         if(isCar = true){
             // The value 'true' assigned to 'isCar' is never used
             // Assignment 'isCar = true' used as condition
-            System.out.println("This is not supposed to happen");
+            System.out.println("Assignment 'isCar = true' used as conditions");
         }
 
         // Condition 2
         if(isCar == true){
-            // The value 'true' assigned to 'isCar' is never used
-            // Assignment 'isCar = true' used as condition
-            System.out.println("This is not supposed to happen");
+            System.out.println("Checking opposite value of isCar");
         }
 
         // Condition 3
         if(isCar){
-            // The value 'true' assigned to 'isCar' is never used
-            // Assignment 'isCar = true' used as condition
             System.out.println("This is not supposed to happen");
         }
 
         // Condition 4
-        if(isCar != true){
-            // The value 'true' assigned to 'isCar' is never used
-            // Assignment 'isCar = true' used as condition
-            System.out.println("This is not supposed to happen");
+        if(!isCar){
+            System.out.println("Checking opposite value of isCar");
         }
 
         // Condition 5
+        if(isCar != true){
+            System.out.println("Checking value of isCar");
+        }
+
+        // Condition 6
         if(isCar == false){
-            // The value 'true' assigned to 'isCar' is never used
-            // Assignment 'isCar = true' used as condition
-            System.out.println("This is not supposed to happen");
+            System.out.println("Checking value of isCar");
         }
     }
 }
