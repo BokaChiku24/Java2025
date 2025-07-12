@@ -6,7 +6,7 @@ public class Operator {
         byte byteValue = 10;
         short shortValue = 10;
         int intValue = 10;
-        total = 50000L + 10L * (byteValue+shortValue+intValue);
+        total = 50000L + 10L * (byteValue + shortValue + intValue);
         System.out.println("Total is: " + total);
     }
 }

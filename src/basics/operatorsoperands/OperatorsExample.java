@@ -1,4 +1,4 @@
-package operators;
+package basics.operatorsoperands;
 
 public class OperatorsExample {
 

@@ -1,4 +1,4 @@
-package operators.assignmentandequality;
+package basics.operatorsoperands.assignmentandequality;
 
 public class AssignmentEquality {
     public static void main(String[] args) {
