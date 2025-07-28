@@ -1,4 +1,4 @@
-package basics.controlflow.switchstatement;
+package basics.controlflow.enhancedswitch;
 
 public class EnhancedSwitchMonths {
     public static void main(String[] args) {
