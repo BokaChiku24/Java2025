@@ -5,14 +5,15 @@ public class SunOfOdd {
         System.out.println(sumOdd(12, 5)); // Output: -1
         System.out.println(sumOdd(1, 100)); // Output: 2500
     }
-    public static boolean isOdd(int number){
-        if (number < 0 ){
+
+    public static boolean isOdd(int number) {
+        if (number < 0) {
+            return false;
+        } else if (number % 2 != 0) {
+            return true;
+        } else {
             return false;
         }
-        if(number % 2 != 0){
-            return true;
-        }
-        return false;
 
     }
 
