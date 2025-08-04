@@ -15,6 +15,15 @@ public class ForLoop {
             double interestRate  = calculateInterest(10000 , counter );
             System.out.println(STR."10,000 at \{counter}% interest = \{interestRate}");
         }
+        System.out.println(STR."**************************************************************************");
+
+        for (double i = 7.25d; i <=10.00d; i += 0.25D ){
+            double interestRate = calculateInterest(10000, i);
+            System.out.println(STR."10,000 at \{i}% interest = \{interestRate}");
+            if(i == 8.50d){
+                break;
+            }
+        }
     }
 
     public static double calculateInterest(double amount, double interestRate) {
