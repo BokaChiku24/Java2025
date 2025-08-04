@@ -27,7 +27,7 @@ public class Main {
             default -> "Invalid Day";
         };
 
-        System.out.println(day + " stands for " + dayOfWeek);
+        System.out.println(STR."\{day} stands for \{dayOfWeek}");
     }
 
     public static void printWeekDay(int day) {
@@ -49,6 +49,6 @@ public class Main {
             dayOfWeek = "Saturday";
         }
 
-        System.out.println(day + " stands for " + dayOfWeek);
+        System.out.println(STR."\{day} stands for \{dayOfWeek}");
     }
 }
