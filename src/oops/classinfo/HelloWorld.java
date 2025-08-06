@@ -1,8 +1,9 @@
 package oops.classinfo;
 
 public class HelloWorld {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println();
-        System.out.println("Hello World!");
+        System.out.println(STR."Hello World!");
+        System.out.println();
     }
 }
