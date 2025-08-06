@@ -26,7 +26,7 @@ public class TryCatch {
         String name = scan.nextLine();
         System.out.println("Hi " + name + ", Thanks for entering your name!");
         System.out.println("Enter your age:");
-        int age = scan.nextInt();
+        int age = Integer.parseInt(scan.nextLine());
         System.out.println("Your age is " + age + " years old.");
         return "Hi " + name + "! Your age is " + age + ".";
 
