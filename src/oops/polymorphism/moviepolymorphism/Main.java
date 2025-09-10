@@ -13,5 +13,12 @@ public class Main {
 
        Movie theScienceMovie = new ScienceFiction("Interstellar");
        theScienceMovie.watchMovie();
-    }
+
+       Movie obj = Movie.getMovie("Movie", "Star Wars");
+       obj.watchMovie();
+       Movie obj2 = Movie.getMovie("Adventure", "Scary Movie");
+       Movie obj3 = Movie.getMovie("Comedy", "Hera There");
+       Movie obj4 = Movie.getMovie("Science", "Interstellar");
+
+   }
 }
