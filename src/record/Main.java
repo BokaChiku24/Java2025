@@ -27,7 +27,7 @@ public class Main {
 
         System.out.println("-".repeat(50));
 
-        ArrayList objectList = new ArrayList();
+        ArrayList<Object> objectList = new ArrayList<>();
         objectList.add(new GroceryItem("BUTTER"));
         objectList.add("YOGURT");
         System.out.println(objectList);
