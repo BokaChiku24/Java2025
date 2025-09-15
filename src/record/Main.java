@@ -37,6 +37,7 @@ public class Main {
         ArrayList<GroceryItem> groceryItemsList = new ArrayList<>();
         groceryItemsList.add(new GroceryItem("BUTTER"));
         // groceryItemsList.add("YOGURT");
+        System.out.println(groceryItemsList);
 
     }
 }
